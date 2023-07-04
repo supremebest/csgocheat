@@ -156,7 +156,7 @@ Global set_abs_origin
 
 Read_csgo_offsets_from_hazedumper() {
 	whr := ComObjCreate("WinHttp.WinHttpRequest.5.1")
-	whr.Open("GET", "https://raw.githubusercontent.com/frk1/hazedumper/master/csgo.toml", true)
+	whr.Open("GET", "https://raw.githubusercontent.com/supremebest/csgocheat/main/csgo.toml", true)
 	whr.Send()
 	whr.WaitForResponse(-1)
 	
